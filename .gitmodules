@@ -1,0 +1,3 @@
+[submodule "wasm-webgl"]
+	path = wasm-webgl
+	url = git@github.com:m1911star/wasm-webgl.git
