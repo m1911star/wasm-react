@@ -5,11 +5,11 @@ import ViteRsw from 'vite-plugin-rsw';
 export default defineConfig({
   plugins: [
     reactRefresh(),
-    ViteRsw({
-      profile: "release",
-      crates: [
-        'wasm-webgl',
-      ]
-    }),
+    // ViteRsw({
+    //   profile: "release",
+    //   crates: [
+    //     'wasm-webgl',
+    //   ]
+    // }),
   ],
-})
+});
